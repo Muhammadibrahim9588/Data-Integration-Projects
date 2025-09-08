@@ -1,5 +1,5 @@
 # di-integration
-A data integration project that offers the project frame and automatic tests for the homework assignments of the "Data Integration" lecture.
+A data integration project that offers the implemented solutions for Data profiling, Duplicate Detection and Schema Matching
 
 ## Requirements
 - Java Version >= 11
@@ -17,8 +17,6 @@ A data integration project that offers the project frame and automatic tests for
   mvn package
   ```
 
-Most automatic JUnit tests should fail at this step. The task is to implement all algorithmic steps marked as "DATA INTEGRATION ASSIGNMENT", such that all tests finally succeed.
-
 ## Advanced testing
 
 1. Read the program documentation
@@ -31,8 +29,3 @@ Most automatic JUnit tests should fail at this step. The task is to implement al
   java -jar target/di-integration-1.0.jar Levenshtein --string1 "Data Integration Uni Marburg" --string2 "Datenintegration Universität Marburg" --withDamerau true
   ```
 
-## Important comments
-
-1. Please do *NOT* fork this project or post solutions for the assignments on GitHub!
-
-2. The code ducumentation and task specifications may provide very useful hints and help for solving the individual tasks.
